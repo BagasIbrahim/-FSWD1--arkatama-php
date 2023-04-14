@@ -20,7 +20,7 @@
                                 <div class="d-flex flex-column align-items-center text-center">
                                     <img src="../assets/images/saya.jpg" alt="Admin" width="150">
                                     <div class="mt-3">
-                                        <h4>Bagas Maulana Ibrahim</h4>
+                                        <h4><?php echo "Bagas Maulana Ibrahim"?></h4>
                                         <?php echo "Web Developer";
                                         echo "<br>";
                                         echo "Mahasiswa";
@@ -66,59 +66,59 @@
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col-sm-3">
-                                        <h6 class="mb-0 text-light">Nama Lengkap</h6>
+                                        <h6 class="mb-0 text-light"><?php echo "Nama Lengkap"?></h6>
                                     </div>
                                     <div class="col-sm-9 text-light">
-                                        Bagas Maulana Ibrahim
+                                    <?php echo "Bagas Maulana Ibrahim"?>
                                     </div>
                                 </div>
                                 <hr>
                                 <div class="row">
                                     <div class="col-sm-3">
-                                        <h6 class="mb-0 text-light">Tempat Tgl Lahir</h6>
+                                        <h6 class="mb-0 text-light"><?php echo "Tempat Tgl Lahir"?></h6>
                                     </div>
                                     <div class="col-sm-9 text-light">
-                                        Tangerang, 26 Desember 2002
+                                        <?php echo "Tangerang, 26 Desember 2002"?>
                                     </div>
                                 </div>
                                 <hr>
                                 <div class="row">
                                     <div class="col-sm-3">
-                                        <h6 class="mb-0 text-light">Jenis Kelamin</h6>
+                                        <h6 class="mb-0 text-light"><?php echo "Jenis Kelamin"?></h6>
                                     </div>
                                     <div class="col-sm-9 text-light">
-                                        Laki - Laki
+                                        <?php echo "Laki - Laki"?>
                                     </div>
                                 </div>
                                 <hr>
                                 <div class="row">
                                     <div class="col-sm-3">
-                                        <h6 class="mb-0 text-light">Alamat</h6>
+                                        <h6 class="mb-0 text-light"><?php echo "Alamat"?></h6>
                                     </div>
                                     <div class="col-sm-9 text-light">
-                                        Jl. Pinus Raya, Cipondoh Indah, Cipondoh, Kota Tangerang, Banten
+                                        <?php echo "Jl. Pinus Raya, Cipondoh Indah, Cipondoh, Kota Tangerang, Banten"?>
                                     </div>
                                 </div>
                                 <hr>
                                 <div class="row">
                                     <div class="col-sm-3">
-                                        <h6 class="mb-0 text-light">Hobi</h6>
+                                        <h6 class="mb-0 text-light"><?php echo "Hobi"?></h6>
                                     </div>
                                     <div class="col-sm-9 text-light">
-                                        Bermain game, mendengarkan musik, dan menyanyi
+                                        <?php echo "Bermain game, mendengarkan musik, dan menyanyi"?>
                                     </div>
                                 </div>
                                 <hr>
                                 <div class="row">
                                     <div class="col-sm-3">
-                                        <h6 class="mb-0 text-light">Riwayat Pendidikan</h6>
+                                        <h6 class="mb-0 text-light"><?php echo "Riwayat Pendidikan"?></h6>
                                     </div>
                                     <div class="col-sm-9 text-light">
-                                        SMP Negeri 18 Tangerang
+                                        <?php echo "SMP Negeri 18 Tangerang"?>
                                         <br>
-                                        SMA Negeri 13 Tangerang
+                                        <?php echo "SMA Negeri 13 Tangerang"?>
                                         <br>
-                                        Universitas Mercu Buana
+                                        <?php echo "Universitas Mercu Buana"?>
                                     </div>
                                 </div>
                             </div>
